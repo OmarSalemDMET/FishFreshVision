@@ -55,3 +55,16 @@ To solve this without retraining yet, the Clojure agent:
 Create a database named `fishvision`. The Clojure app will automatically create the required tables on startup.
 ```sql
 CREATE DATABASE fishvision;
+```
+## 📚 Datasets and Licensing
+
+This project was developed and evaluated using the following publicly available datasets. We are grateful to their creators for making this data accessible.
+
+### 1. MFED (Multistage Fish Eyes Dataset)
+- **Source**: Yan, Ce. (2026). *Multistage Fish Eyes Dataset* (Version 2) [Data set]. Mendeley Data. https://doi.org/10.17632/67nmx3mhwh.2
+- **License**: **CC BY 4.0** (Creative Commons Attribution 4.0 International).
+
+### 2. FFE (Freshness of Fish Eyes Dataset)
+- **Source**: Originally created by Eko Prasetyo et al. (2022) and distributed via Mendeley Data. A version of this dataset is hosted on Kaggle by user `huytu2025`.
+- **License**: The license for this specific distribution is listed as **"Unknown"** on Kaggle. This dataset was used for research and benchmarking purposes only, in accordance with the terms of its original publication.
+
