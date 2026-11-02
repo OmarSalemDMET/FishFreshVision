@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+package fish;
+
+service FishEngine {
+  // Returns the raw 5-channel float tensor
+  rpc GetTensor (ImageRequest) returns (TensorResponse);
+
+  // Returns the analysis metrics (FFT, edges, colors)
+  rpc AnalyzeImage (ImageRequest) returns (AnalysisResponse);
+}
+
+message ImageRequest {
+  string image_path = 1;
+}
+
+message TensorResponse {
+  bytes tensor_data = 1; // 250,880 raw floats
+}
+
+message AnalysisResponse {
+  float edge_density = 1;
+  float color_yellowness = 2;
+  float color_saturation = 3;
+  float fft_low_freq_ratio = 4;
+}

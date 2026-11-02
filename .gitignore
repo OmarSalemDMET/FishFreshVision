@@ -1,0 +1,47 @@
+# OS & IDE Files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Secrets & Environment
+.env
+.env.local
+.env.*.local
+
+# Rust
+target/
+**/*.rs.bk
+test_sample/
+data/
+*.zip
+
+# Clojure
+target/
+classes/
+*.class
+.cpcache/
+.nrepl-port
+.clj-kondo/
+.lsp/
+
+# Application runtime data
+logs/
+uploads/
+
+# Svelte / Node
+node_modules/
+dist/
+build/
+.svelte-kit/
+.vite/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ML Models
+# *.onnx
