@@ -58,7 +58,7 @@ CREATE DATABASE fishvision;
 ```
 ## 📚 Datasets and Licensing
 
-This project was developed and evaluated using the following publicly available datasets. We are grateful to their creators for making this data accessible.
+This project was developed and evaluated using the following publicly available datasets.
 
 ### 1. MFED (Multistage Fish Eyes Dataset)
 - **Source**: Yan, Ce. (2026). *Multistage Fish Eyes Dataset* (Version 2) [Data set]. Mendeley Data. https://doi.org/10.17632/67nmx3mhwh.2
